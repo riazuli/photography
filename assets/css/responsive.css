@@ -1,0 +1,131 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        padding-left: 10px;
+    }
+    .search-bar .search {
+        width: 75%;
+    }
+
+    .search-bar select {
+        width: 13%;
+    }
+    .signup-btn {
+        margin-right: 5px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+   
+    .cart-area {
+        padding: 10px 0px;
+        text-align: left;
+    }
+
+    .main-menu {
+        padding: 10px 0px;
+    }
+
+    .main-menu ul {
+        text-align: center;
+    }
+
+    .cart-area {
+        padding: 10px 0px;
+        text-align: left;
+    }
+
+    .main-menu {
+        padding: 10px 0px;
+    }
+
+    .search-bar .search {
+        width: 70%;
+    }
+
+    .search-bar select {
+        width: 14%;
+    }
+
+    .search-bar button {
+        width: 16%;
+    }
+
+    .slicknav_btn {
+        margin-top: -50px;
+    }
+.signup-btn {
+    margin-left: 5px;
+}
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .cart-area {
+        padding: 10px 0px;
+        text-align: left;
+    }
+    .signup-btn {
+    margin-left: 5px;
+}
+
+    .slicknav_btn {
+        margin-top: -50px;
+    }
+
+    .single-contact-info {
+        font-size: 18px;
+    }
+
+    .search-bar input[type="search"] {
+        padding: 10px 0px;
+        font-size: 18px;
+    }
+
+    .search-bar .search {
+        width: 60%;
+    }
+
+    .search-bar select {
+        padding: 21px 0px;
+        width: 18%;
+    }
+
+    .search-bar button {
+        padding: 12px 0px;
+        width: 22%;
+    }
+
+    .hero-area {
+        padding: 130px 0px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .about-text {
+        font-size: 20px;
+    }
+
+    .copyrights-area {
+        font-size: 20px;
+    }
+
+    .slick-slide.slick-current .single-slide-body {
+    transform: scale(1);
+}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
